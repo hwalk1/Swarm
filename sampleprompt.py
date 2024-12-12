@@ -20,3 +20,8 @@ response = client.run(
     agent=agent_a,
     messages=[{"role": "user", "content": "I want to talk to agent B."}],
 )
+
+agent_code = Agent(
+    name='Agent Code'
+    instructions='Code in React the response from another Agent'
+)
