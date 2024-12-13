@@ -25,3 +25,8 @@ agent_code = Agent(
     name='Agent Code'
     instructions='Code in React the response from another Agent'
 )
+
+agent_post = Agent(
+    name='Agent Post'
+    instructions='Post on X'
+)
