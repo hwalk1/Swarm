@@ -22,11 +22,16 @@ response = client.run(
 )
 
 agent_code = Agent(
-    name='Agent Code'
+    name='Agent Code',
     instructions='Code in React the response from another Agent'
 )
 
 agent_post = Agent(
-    name='Agent Post'
+    name='Agent Post',
     instructions='Post on X'
+)
+
+agent_summary = Agent(
+    name='Agent Summary',
+    instructions='Summarise the incoming messages from the agents and then save them to the DB'
 )
