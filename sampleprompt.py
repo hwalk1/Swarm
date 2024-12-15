@@ -35,3 +35,8 @@ agent_summary = Agent(
     name='Agent Summary',
     instructions='Summarise the incoming messages from the agents and then save them to the DB'
 )
+
+agent_dashboard = Agent(
+    name='Agent Dashboard',
+    insctructions='Take the incoming data and output the following json format 'x:y:z' for the dashboard
+)
